@@ -1,0 +1,12 @@
+h1. Sublime Text 2 editor cleartool/case integration
+By Rui Coelho
+
+h2. Installation
+* Copy folder into Packages/Clearcase
+
+h2. Usage:
+* Either right-click context menu or use keymaps
+
+h2. References:
+* http://www.sublimetext.com/2
+* http://net.tutsplus.com/tutorials/tools-and-tips/sublime-text-2-tips-and-tricks/
