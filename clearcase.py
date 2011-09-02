@@ -34,3 +34,10 @@ class ClearcaseUncoCommand(ClearcaseCommand):
     def run(self):
         cmd = ['cleartool', 'unco', self.window.active_view().file_name()]
         super(ClearcaseUncoCommand, self).run(cmd)
+
+class ClearcaseAnnotateCommand(ClearcaseCommand):
+    def run(self):
+        out = '%s.ann' % self.window.active_view().file_name()
+        cmd = ['cleartool', 'annotate', '-short', '-out', out, self.window.active_view().file_name()]
+        super(ClearcaseAnnotateCommand, self).run(cmd)
+        self.window.open_file(out)
