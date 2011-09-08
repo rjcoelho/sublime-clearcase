@@ -1,8 +1,9 @@
 [
-	{ "keys": ["super+alt+e"], "command": "clearcase_explorer" },
-	{ "keys": ["super+alt+o"], "command": "clearcase_checkout" },
-	{ "keys": ["super+alt+i"], "command": "clearcase_checkin" },
-	{ "keys": ["super+alt+v"], "command": "clearcase_vtree" },
-	{ "keys": ["super+alt+u"], "command": "clearcase_unco" },
-	{ "keys": ["super+alt+a"], "command": "clearcase_annotate" }
+  { "keys": ["super+alt+e"], "command": "clearcase_explorer" },
+  { "keys": ["super+alt+o"], "command": "clearcase_checkout" },
+  { "keys": ["super+alt+i"], "command": "clearcase_checkin" },
+  { "keys": ["super+alt+v"], "command": "clearcase_vtree" },
+  { "keys": ["super+alt+p"], "command": "clearcase_prev" },
+  { "keys": ["super+alt+u"], "command": "clearcase_unco" },
+  { "keys": ["super+alt+a"], "command": "clearcase_annotate" }
 ]

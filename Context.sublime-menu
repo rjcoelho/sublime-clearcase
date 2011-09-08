@@ -1,10 +1,11 @@
 [
-	{ "caption": "-" },
-	{ "command": "clearcase_explorer", "caption": "Clearcase explorer" },
-    { "command": "clearcase_checkout", "caption": "Clearcase checkout" },
-    { "command": "clearcase_checkin", "caption": "Clearcase checkin" },
-    { "command": "clearcase_vtree", "caption": "Clearcase version tree" },
-    { "command": "clearcase_unco", "caption": "Clearcase undo checkout" },
-    { "command": "clearcase_annotate", "caption": "Clearcase annotate" },
-    { "caption": "-", "id": "end" }
+  { "caption": "-" },
+  { "command": "clearcase_explorer", "caption": "Clearcase explorer" },
+  { "command": "clearcase_checkout", "caption": "Clearcase checkout" },
+  { "command": "clearcase_checkin", "caption": "Clearcase checkin" },
+  { "command": "clearcase_vtree", "caption": "Clearcase version tree" },
+  { "command": "clearcase_prev", "caption": "Clearcase compare previous" },
+  { "command": "clearcase_unco", "caption": "Clearcase undo checkout" },
+  { "command": "clearcase_annotate", "caption": "Clearcase annotate" },
+  { "caption": "-", "id": "end" }
 ]

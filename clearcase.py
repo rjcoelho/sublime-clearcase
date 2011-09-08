@@ -30,6 +30,11 @@ class ClearcaseVtreeCommand(ClearcaseCommand):
         cmd = ['clearvtree', self.window.active_view().file_name()]
         super(ClearcaseVtreeCommand, self).run(cmd)
 
+class ClearcasePrevCommand(ClearcaseCommand):
+    def run(self):
+        cmd = ['cleartool', 'diff', '-graph', '-pred', self.window.active_view().file_name()]
+        super(ClearcasePrevCommand, self).run(cmd)
+
 class ClearcaseUncoCommand(ClearcaseCommand):
     def run(self):
         cmd = ['cleartool', 'unco', self.window.active_view().file_name()]
