@@ -27,7 +27,7 @@ class ClearcaseCheckinCommand(ClearcaseCommand):
 
 class ClearcaseVtreeCommand(ClearcaseCommand):
     def run(self):
-        cmd = ['clearvtree', self.window.active_view().file_name()]
+        cmd = ['cleartool', 'lsvtree', '-graphical', self.window.active_view().file_name()]
         super(ClearcaseVtreeCommand, self).run(cmd)
 
 class ClearcasePrevCommand(ClearcaseCommand):
