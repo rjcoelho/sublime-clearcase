@@ -46,6 +46,12 @@ class ClearcaseVtreeCommand(ClearcaseCommand):
         super(ClearcaseVtreeCommand, self).run(cmd)
 
 
+class ClearcaseHistoryCommand(ClearcaseCommand):
+    def run(self):
+        cmd = ['cleartool', 'lshistory', '-graphical', self.window.active_view().file_name()]
+        super(ClearcaseHistoryCommand, self).run(cmd)
+
+
 class ClearcasePrevCommand(ClearcaseCommand):
     def run(self):
         cmd = ['cleartool', 'diff', '-graph', '-pred', self.window.active_view().file_name()]

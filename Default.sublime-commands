@@ -3,6 +3,7 @@
   { "command": "clearcase_checkout", "caption": "Clearcase: Checkout" },
   { "command": "clearcase_checkin", "caption": "Clearcase: Checkin" },
   { "command": "clearcase_vtree", "caption": "Clearcase: Version Tree" },
+  { "command": "clearcase_history", "caption": "Clearcase: History" },
   { "command": "clearcase_prev", "caption": "Clearcase: Compare Previous" },
   { "command": "clearcase_unco", "caption": "Clearcase: Undo Checkout" },
   { "command": "clearcase_annotate", "caption": "Clearcase: Annotate" }
