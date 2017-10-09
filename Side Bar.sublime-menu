@@ -1,0 +1,16 @@
+[
+    { "caption": "-" },
+    {
+        "caption": "Clearcase",
+        "children": [
+            { "command": "clearcase_explorer", "caption": "Clearcase explorer" },
+            { "command": "clearcase_checkout", "caption": "Clearcase checkout" },
+            { "command": "clearcase_checkin", "caption": "Clearcase checkin" },
+            { "command": "clearcase_vtree", "caption": "Clearcase version tree" },
+            { "command": "clearcase_history", "caption": "Clearcase: history" },
+            { "command": "clearcase_prev", "caption": "Clearcase compare previous" },
+            { "command": "clearcase_unco", "caption": "Clearcase undo checkout" },
+            { "command": "clearcase_annotate", "caption": "Clearcase annotate" }
+        ]
+    }
+]
